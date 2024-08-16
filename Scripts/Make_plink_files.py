@@ -26,7 +26,7 @@ class LINE:
   
 ### functions ###
 def get_arguments():
-    """get the input files"""
+    """get the input files for creating the pheno map"""
 
     parser = argparse.ArgumentParser(
         description="Reformat input files into ped and pheno maps")
